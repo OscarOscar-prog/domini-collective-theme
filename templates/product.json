@@ -1,0 +1,220 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "underline",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "variant_image_show_underline": false,
+            "size_chart_page": "size-guide-compressed"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "inventory_QihqAP": {
+          "type": "inventory",
+          "settings": {
+            "show_in_stock_quantity": true,
+            "low_inventory_threshold": 0,
+            "show_progress_bar": false,
+            "progress_bar_max_value": 50
+          }
+        },
+        "separator_PLK8Bc": {
+          "type": "separator",
+          "settings": {}
+        },
+        "feature_with_icon_efDKDn": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Shipping From Noosa",
+            "link": "",
+            "icon": "picto-delivery-truck",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_f4peKi": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Same Day Dispatch*",
+            "link": "",
+            "icon": "picto-box",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_wbXCdT": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Wear Now, Pay Later",
+            "link": "",
+            "icon": "picto-money",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_dc4fUA": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Returns Available",
+            "link": "",
+            "icon": "picto-return",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 5,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        },
+        "separator_AyH8Hm": {
+          "type": "separator",
+          "settings": {}
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true,
+            "show_below_gallery": false
+          }
+        },
+        "accordion_P7aTKn": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Size Guide",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "liquid": "",
+            "page": "size-guide-compressed"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "inventory_QihqAP",
+        "separator_PLK8Bc",
+        "feature_with_icon_efDKDn",
+        "feature_with_icon_f4peKi",
+        "feature_with_icon_wbXCdT",
+        "feature_with_icon_dc4fUA",
+        "complementary_products",
+        "separator_AyH8Hm",
+        "payment_terms",
+        "buy_buttons",
+        "description",
+        "accordion_P7aTKn"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "transparent_header_use_primary_colors": true,
+        "container_size": "lg",
+        "product_info_size": 50,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": true,
+        "desktop_media_layout": "carousel_dots",
+        "desktop_media_grid_gap": 10,
+        "mobile_controls": "free_scroll",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2.5
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "recommendations_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.7,
+        "vertical_spacing_factor": 0.7,
+        "subheading": "",
+        "title": "Related products",
+        "heading_style": "h2",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}

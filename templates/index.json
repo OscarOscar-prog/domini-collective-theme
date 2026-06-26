@@ -1,0 +1,516 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "mobile_image": "shopify://shop_images/3.jpg",
+            "subheading": "Designer Focus",
+            "title": "A/W New Arrivals",
+            "heading_style": "h1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify://collections/new-arrivals",
+            "button_1_style": "fill",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#1c1c1c",
+            "button_2_text_color": "#ffffff",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 100%)"
+          }
+        },
+        "image_bctjFn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DOMINI_COLLECTIVE_WEBSITE_BANNERS_af35c7d3-232e-4859-aef7-16ddf101c809.png",
+            "mobile_image": "shopify://shop_images/5_5488343d-259f-46d6-ba9d-86af3cf16863.png",
+            "subheading": "",
+            "title": "",
+            "heading_style": "h1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 460,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/new-arrivals",
+            "button_1_style": "outline",
+            "button_1_background": "#1c1c1c",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "rgba(0,0,0,0)",
+            "button_2_text_color": "rgba(0,0,0,0)",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 71,
+            "text_color": "rgba(0,0,0,0)",
+            "border_color": "rgba(0,0,0,0)",
+            "gradient_overlay": ""
+          }
+        },
+        "image_D3eY63": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_b0bf2049-8821-4bf6-88bc-7c5d479a1fdf.jpg",
+            "mobile_image": "shopify://shop_images/2.jpg",
+            "subheading": "Brand Spotlight",
+            "title": "Sixxta",
+            "heading_style": "h1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 540,
+            "button_1_text": "See Collection",
+            "button_1_link": "shopify://products/super-over-shirt-polka-dot",
+            "button_1_style": "outline",
+            "button_1_background": "#1c1c1c",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "rgba(0,0,0,0)",
+            "button_2_text_color": "rgba(0,0,0,0)",
+            "background": "",
+            "background_opacity": 100,
+            "text_color": "rgba(0,0,0,0)",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 0), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "image_bctjFn",
+        "image_D3eY63"
+      ],
+      "custom_css": [
+        ".hero__subtitle,.hero__subheading {opacity: 0; transform: translateY(16px); animation: fadeUp 0.7s ease forwards; animation-delay: 0.45s;}"
+      ],
+      "name": "Hero Content",
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "fill",
+        "show_initial_transition": true,
+        "autoplay": true,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured-collections-1": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "jeans",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/all",
+            "link_text": "Shop {{ block.settings.collection.title }}"
+          }
+        },
+        "collection_BcXEFF": {
+          "type": "collection",
+          "settings": {
+            "collection": "knits",
+            "products_count": 6,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop {{ block.settings.collection.title }}"
+          }
+        },
+        "collection_DQfB7d": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "products_count": 6,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop {{ block.settings.collection.title }}"
+          }
+        },
+        "collection_9kbwcg": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "products_count": 6,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop {{ block.settings.collection.title }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection_BcXEFF",
+        "collection_DQfB7d",
+        "collection_9kbwcg"
+      ],
+      "name": "Key Collections",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "header_alignment": "center",
+        "heading_style": "h3",
+        "subheading": "Seasonal Categories",
+        "hide_collection_title": false
+      }
+    },
+    "scrolling-content-1": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_CEENkc": {
+          "type": "text",
+          "settings": {
+            "text": "35+ Labels"
+          }
+        },
+        "text_mYPrxi": {
+          "type": "text",
+          "settings": {
+            "text": "Elevated Casual"
+          }
+        },
+        "text_yQxJJh": {
+          "type": "text",
+          "settings": {
+            "text": "Limited Runs"
+          }
+        },
+        "text_YNRP4Q": {
+          "type": "text",
+          "settings": {
+            "text": "Thoughtfully Curated"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Dressed with Intention"
+          }
+        }
+      },
+      "block_order": [
+        "text_CEENkc",
+        "text_mYPrxi",
+        "text_yQxJJh",
+        "text_YNRP4Q",
+        "text-1"
+      ],
+      "name": "Scrolling USP",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 18,
+        "text_font_size_desktop": 26,
+        "section_vertical_spacing_mobile": 20,
+        "section_vertical_spacing_desktop": 20,
+        "item_horizontal_spacing_mobile": 25,
+        "item_horizontal_spacing_desktop": 25,
+        "background": "",
+        "text_color": "#8f8f8f"
+      }
+    },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_7ggVqe": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/SnapInsta.to_716610288_18596475970048138_1122887539438795821_n.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "chill-jean-good-luck",
+            "product_1_horizontal_position": 54,
+            "product_1_vertical_position": 65,
+            "product_2": "ani-jacket-voyager-vintage",
+            "product_2_horizontal_position": 37,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_ETpgDd": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/SnapInsta.to_723820426_18599074654048138_5147329809546743035_n.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "athena-jacket",
+            "product_1_horizontal_position": 47,
+            "product_1_vertical_position": 53,
+            "product_2": "bo-barrel-leg-jean-ecru",
+            "product_2_horizontal_position": 37,
+            "product_2_vertical_position": 71,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_4DhLHk": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Saturday_staff_picks_jones_styling_wearing_new_oncewas___and_sixxta_Available_in_store_no.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "roselle-merino-knit-top-bordeaux",
+            "product_1_horizontal_position": 37,
+            "product_1_vertical_position": 49,
+            "product_2": "relax-jeans-la-flor",
+            "product_2_horizontal_position": 41,
+            "product_2_vertical_position": 82,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look-2": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Knitwear_but_make_it_FUN_All_new_Kinney_available_in_store_and_online_now_x.See_you_Tuesday_fro.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "goldie-cardigan",
+            "product_1_horizontal_position": 48,
+            "product_1_vertical_position": 46,
+            "product_2": "leal-jeans-blue",
+            "product_2_horizontal_position": 49,
+            "product_2_vertical_position": 67,
+            "product_3": "",
+            "product_3_horizontal_position": 75,
+            "product_3_vertical_position": 30,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_FKfkzw": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Nothing_beats_a_blazer-jeans_combo._An_easy_way_to_elevate_your_everyday_wardrobe_.Pip_wears_n.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "sadie-jean-idaho",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 75,
+            "product_2": "athena-jacket",
+            "product_2_horizontal_position": 42,
+            "product_2_vertical_position": 34,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_7ggVqe",
+        "look_ETpgDd",
+        "look_4DhLHk",
+        "look-2",
+        "look_FKfkzw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "subheading": "Shop",
+        "title": "Our looks",
+        "heading_style": "h2",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
+    "featured_collections_ctRbyM": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ia6bd3": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "products_count": 12,
+            "title": "{{ block.settings.collection.title }}",
+            "link_url": "shopify://collections/new-arrivals",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ia6bd3"
+      ],
+      "name": "New Arrivals ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.7,
+        "vertical_spacing_factor": 0.7,
+        "header_alignment": "center",
+        "heading_style": "h2",
+        "subheading": "",
+        "hide_collection_title": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "A mother & daughter boutique stocking the labels worth knowing",
+            "heading_tag": "h1"
+          }
+        },
+        "link-1": {
+          "type": "link",
+          "settings": {
+            "text": "Our story",
+            "url": "shopify://pages/about-us"
+          }
+        },
+        "link-2": {
+          "type": "link",
+          "settings": {
+            "text": "Follow Us",
+            "url": "https://www.instagram.com/dominicollective/"
+          }
+        }
+      },
+      "block_order": [
+        "heading-1",
+        "link-1",
+        "link-2"
+      ],
+      "name": "About",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "logo_list_jWhtDM": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_jpimUb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Seventy_Mochi_Logo.png",
+            "logo_width": 120,
+            "link": "shopify://collections/seventy-mochi"
+          }
+        },
+        "logo_dKhMhD": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Binny_Logo.png",
+            "logo_width": 250,
+            "link": "shopify://collections/binny"
+          }
+        },
+        "logo_96U9dr": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Claire_Logo.png",
+            "logo_width": 250,
+            "link": "shopify://collections/claire"
+          }
+        },
+        "logo_DER6mn": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Mus_BomBon.png",
+            "logo_width": 250,
+            "link": "shopify://collections/mus-bombon"
+          }
+        },
+        "logo_BTgdKJ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Le_Temps_Des_Perises_Logo.png",
+            "logo_width": 250,
+            "link": "shopify://collections/le-temps-de-cerises"
+          }
+        },
+        "logo_DEWEcd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Lania_Logo.png",
+            "logo_width": 250,
+            "link": "shopify://collections/lania-the-label"
+          }
+        }
+      },
+      "block_order": [
+        "logo_jpimUb",
+        "logo_dKhMhD",
+        "logo_96U9dr",
+        "logo_DER6mn",
+        "logo_BTgdKJ",
+        "logo_DEWEcd"
+      ],
+      "name": "Stockists",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Our Brands",
+        "heading_style": "h3",
+        "stack_on_mobile": true,
+        "items_per_row": 6,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collections-1",
+    "scrolling-content-1",
+    "shop-the-look",
+    "featured_collections_ctRbyM",
+    "rich-text",
+    "logo_list_jWhtDM"
+  ]
+}
