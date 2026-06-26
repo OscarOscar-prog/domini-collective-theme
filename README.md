@@ -1,0 +1,1 @@
+# domini-collective-theme
