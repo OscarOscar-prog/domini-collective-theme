@@ -88,7 +88,8 @@
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Today_we_said_goodbye_for_a_while_to_our_beautiful_founder_Dom._For_those_of_you_who_don_t_kn.jpg",
-        "reveal_on_scroll": true,
+        "mobile_image": "shopify://shop_images/Today_we_said_goodbye_for_a_while_to_our_beautiful_founder_Dom._For_those_of_you_who_don_t_kn.jpg",
+        "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "md",
         "remove_vertical_spacing": true
