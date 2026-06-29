@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "intro": {
@@ -32,7 +41,8 @@
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "content_width": "sm",
-        "text_position": "center"
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "story": {
@@ -47,7 +57,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "text": "A mother &amp; daughter, behind every edit",
+            "text": "A mother & daughter behind every edit",
             "heading_tag": "h2"
           }
         },
@@ -62,7 +72,9 @@
           "settings": {
             "style": "solid",
             "text": "Shop new arrivals",
-            "url": "shopify://collections/new-arrivals"
+            "url": "shopify://collections/new-arrivals",
+            "background": "",
+            "text_color": ""
           }
         }
       },
@@ -75,8 +87,11 @@
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
+        "image": "shopify://shop_images/Today_we_said_goodbye_for_a_while_to_our_beautiful_founder_Dom._For_those_of_you_who_don_t_kn.jpg",
+        "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "md"
+        "content_width": "md",
+        "remove_vertical_spacing": true
       }
     },
     "pillars": {
@@ -87,7 +102,9 @@
           "settings": {
             "title": "35+ Labels",
             "heading_tag": "h3",
-            "content": "<p>A growing collective of designers, hand-picked and brought together under one roof.</p>"
+            "content": "<p>A growing collective of designers, hand-picked and brought together under one roof.</p>",
+            "link_url": "",
+            "link_text": ""
           }
         },
         "limited": {
@@ -95,7 +112,9 @@
           "settings": {
             "title": "Limited Runs",
             "heading_tag": "h3",
-            "content": "<p>Small batches and rare finds — when they're gone, they're gone.</p>"
+            "content": "<p>Small batches and rare finds — when they're gone, they're gone.</p>",
+            "link_url": "",
+            "link_text": ""
           }
         },
         "curated": {
@@ -103,7 +122,9 @@
           "settings": {
             "title": "Thoughtfully Curated",
             "heading_tag": "h3",
-            "content": "<p>No filler, no noise. Just pieces we'd wear ourselves, chosen with intention.</p>"
+            "content": "<p>No filler, no noise. Just pieces we'd wear ourselves, chosen with intention.</p>",
+            "link_url": "",
+            "link_text": ""
           }
         }
       },
@@ -115,13 +136,16 @@
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
         "subheading": "Why Domini",
         "title": "The labels worth knowing",
         "heading_style": "h2",
-        "columns_per_row": 3,
-        "stack_on_mobile": true,
-        "content_alignment": "start",
-        "text_alignment": "start"
+        "content": ""
       }
     }
   },
