@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our Story"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Dressed with Intention",
+            "heading_tag": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Domini Collective began with a simple belief — that the right pieces are worth seeking out. We're a mother and daughter, curating the labels worth knowing into one considered edit. Elevated casual, thoughtfully chosen, made to be lived in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "paragraph"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center"
+      }
+    },
+    "story": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "A Family Affair"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "A mother &amp; daughter, behind every edit",
+            "heading_tag": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>What started between the two of us has grown into a collective of 35+ designers we genuinely love. We travel, we hunt, we edit — bringing home limited runs and emerging names before everyone else. Every piece on the rail has earned its place.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop new arrivals",
+            "url": "shopify://collections/new-arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "paragraph",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image_position": "end",
+        "content_width": "md"
+      }
+    },
+    "pillars": {
+      "type": "multi-column",
+      "blocks": {
+        "labels": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "35+ Labels",
+            "heading_tag": "h3",
+            "content": "<p>A growing collective of designers, hand-picked and brought together under one roof.</p>"
+          }
+        },
+        "limited": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Limited Runs",
+            "heading_tag": "h3",
+            "content": "<p>Small batches and rare finds — when they're gone, they're gone.</p>"
+          }
+        },
+        "curated": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Thoughtfully Curated",
+            "heading_tag": "h3",
+            "content": "<p>No filler, no noise. Just pieces we'd wear ourselves, chosen with intention.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "labels",
+        "limited",
+        "curated"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "subheading": "Why Domini",
+        "title": "The labels worth knowing",
+        "heading_style": "h2",
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "content_alignment": "start",
+        "text_alignment": "start"
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "story",
+    "pillars"
+  ]
+}
