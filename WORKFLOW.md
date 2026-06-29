@@ -8,22 +8,25 @@
 
 | Component | What it is | This setup |
 |---|---|---|
-| **Shopify** | The live store + any draft themes | Live theme (published) **and** a draft theme named `domini-collective-theme/dev` |
+| **Shopify** | The live store + draft themes | Live theme **"Online Store - June 29th"** (Active, built directly in Shopify, **not** GitHub-connected) + two GitHub-connected **draft** themes |
 | **GitHub** | Version-controlled copy of the theme code | `OscarOscar-prog/domini-collective-theme` |
 | **Local folder** | A clone where edits actually happen | `/Users/tomrudkin/Project/Shopify /domini-collective-theme` |
 
 **How they talk:**
 - Local ⇄ GitHub via **Git** (`pull`, `commit`, `push`).
-- GitHub → Shopify via Shopify's **native GitHub integration**, which auto-syncs each connected branch to its matching theme. There is **no manual deploy and no manual "push to theme" step.**
+- GitHub → Shopify via Shopify's **native GitHub integration**, which auto-syncs each connected branch to its matching **draft** theme. The integration does **not** touch the live store — going live is a separate, manual **Publish**.
 
-**Branch → theme mapping (the key fact):**
+**Branch → theme mapping (the key fact — corrected):**
 
 | Branch | Connected Shopify theme | Effect of pushing |
 |---|---|---|
-| `main` | **Live, published** theme | **Goes live.** Merging into `main` *is* the publish. |
-| `dev` | Draft theme `domini-collective-theme/dev` (unpublished) | Safe. Updates the draft only — live site untouched. |
+| `dev` | Draft `domini-collective-theme/dev` (unpublished) | Safe. Updates the draft only. |
+| `main` | Draft `domini-collective-theme/main` (unpublished) | Safe. Updates a **draft**, *not* the live store. |
+| *(none)* | **Live: "Online Store - June 29th"** (Active) | Not connected to GitHub. Only changes when a draft is **Published** over it, or edited directly in admin. |
 
-> The original setup notes called the working branch "staging." In reality it is **`dev`**, and it has its own draft theme. Treat `dev` as the staging branch.
+> ⚠️ **Merging to `main` does NOT publish.** It only updates the `main` *draft* theme. **Going live = clicking "Publish" on the `domini-collective-theme/main` draft**, which replaces the current live theme wholesale. The original setup notes' "merge to main = publish" is incorrect for this store.
+>
+> ⚠️ The live theme is **not version-controlled** and may hold content/settings the repo lacks. Publishing the `main` draft overwrites it entirely — reconcile (make the repo faithfully match live) before any publish.
 
 ---
 
@@ -69,8 +72,12 @@ Have Claude show what it's about to do (and the diff). Catch wrong assumptions h
 - Click **every interactive element** (buttons, dropdowns, filters, add-to-cart).
 - Check page load — no oversized images or broken assets.
 
-### Step 7 — Merge `dev` → `main` to publish
-Only once Step 6 is genuinely clean. **This merge is the live deploy — there is no further publish step.** Requires a deliberate, reviewed human go-ahead; Claude does not do this unsupervised.
+### Step 7 — Promote to `main`, then Publish to go live
+Two distinct steps:
+1. **Merge `dev` → `main`** (via PR, reviewing the diff). This updates the `domini-collective-theme/main` **draft** theme — still not live. Preview that draft to confirm it's correct.
+2. **Publish** the `domini-collective-theme/main` draft in admin (Online Store → Themes → Publish). **This is the actual go-live** and **replaces the current live theme ("Online Store - June 29th")**.
+
+Before Publishing, confirm the `main` draft is a complete, correct copy of current live *plus only the intended change* — the live theme isn't version-controlled, so publishing overwrites anything the repo doesn't have. Requires a deliberate, reviewed human go-ahead; Claude does not Publish unsupervised.
 
 ---
 
@@ -84,6 +91,7 @@ Acting on changes directly (not just reading this) requires your own push access
 | # | Original notes said | Correction (what's actually true) |
 |---|---|---|
 | 1 | Working branch is **"staging"** | It's **`dev`**, connected to a draft theme **`domini-collective-theme/dev`**. |
+| 1b | "main is connected to the live theme; merge = publish" | **False.** `main` is connected to a separate **draft** (`domini-collective-theme/main`). The live theme ("Online Store - June 29th") is **not** GitHub-connected. Going live requires manually **Publishing** the `main` draft, which replaces the live theme. |
 | 2 | "Push the theme / pull this file into the live theme" to view | **Never push to live to preview.** You `git push` to `dev`; the GitHub integration auto-syncs to the **draft** theme, which you preview in admin. No manual theme push exists. |
 | 3 | Claude can run `shopify theme dev` for local preview | The Shopify **CLI is not installed** and the store isn't authenticated, so local preview isn't available yet. Preview via the `dev` draft theme instead (or install the CLI). |
 | 4 | "No separate Shopify theme ID is tracked" (live identified by name) | Still name-based — and there are now **two** named themes to know: the live one and the draft **`domini-collective-theme/dev`**. |
