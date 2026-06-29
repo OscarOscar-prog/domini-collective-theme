@@ -1,0 +1,158 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our Story"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Dressed with Intention",
+            "heading_tag": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Domini Collective began with a simple belief — that the right pieces are worth seeking out. We're a mother and daughter, curating the labels worth knowing into one considered edit. Elevated casual, thoughtfully chosen, made to be lived in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "paragraph"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "story": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "A Family Affair"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "A mother & daughter behind every edit",
+            "heading_tag": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>What started between the two of us has grown into a collective of 35+ designers we genuinely love. We travel, we hunt, we edit — bringing home limited runs and emerging names before everyone else. Every piece on the rail has earned its place.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop new arrivals",
+            "url": "shopify://collections/new-arrivals",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "paragraph",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Today_we_said_goodbye_for_a_while_to_our_beautiful_founder_Dom._For_those_of_you_who_don_t_kn.jpg",
+        "mobile_image": "shopify://shop_images/Today_we_said_goodbye_for_a_while_to_our_beautiful_founder_Dom._For_those_of_you_who_don_t_kn.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "pillars": {
+      "type": "multi-column",
+      "blocks": {
+        "labels": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "35+ Labels",
+            "heading_tag": "h3",
+            "content": "<p>A growing collective of designers, hand-picked and brought together under one roof.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "limited": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Limited Runs",
+            "heading_tag": "h3",
+            "content": "<p>Small batches and rare finds — when they're gone, they're gone.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "curated": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Thoughtfully Curated",
+            "heading_tag": "h3",
+            "content": "<p>No filler, no noise. Just pieces we'd wear ourselves, chosen with intention.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "labels",
+        "limited",
+        "curated"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "Why Domini",
+        "title": "The labels worth knowing",
+        "heading_style": "h2",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "story",
+    "pillars"
+  ]
+}
