@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "",
+        "image": "{{ collection.image }}",
+        "mobile_image": "{{ collection.image }}",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "show_image": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "text_alignment": "center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "story": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "Brand Spotlight"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Made by hand, worn on purpose",
+            "heading_tag": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Some labels you wear; Binny you keep. Hand-worked prints, quiet craftsmanship and a colour sense all its own — pieces with detail you only notice up close, and never quite forget. It's exactly the kind of find Domini exists for: considered, a little rare, and chosen with intention.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "paragraph"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "editorial": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "The Maker's Hand"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Colour, print, and a signature you'll know across a room",
+            "heading_tag": "h3"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Every piece carries the mark of the hands that made it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "paragraph"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "closing": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "Domini Collective"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "More of the labels worth knowing",
+            "heading_tag": "h3"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "See all designers",
+            "url": "/collections"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "story",
+    "editorial",
+    "main",
+    "closing"
+  ]
+}
