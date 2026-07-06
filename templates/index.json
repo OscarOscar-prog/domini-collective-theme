@@ -27,7 +27,7 @@
             "button_1_text": "View",
             "button_1_link": "shopify://collections/lollys-laundry",
             "button_1_style": "outline",
-            "button_1_background": "#FFFFFF",
+            "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
@@ -184,6 +184,16 @@
     "featured-collections-1": {
       "type": "featured-collections",
       "blocks": {
+        "collection_DQfB7d": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "products_count": 6,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop {{ block.settings.collection.title }}"
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -204,16 +214,6 @@
             "link_text": "Shop {{ block.settings.collection.title }}"
           }
         },
-        "collection_DQfB7d": {
-          "type": "collection",
-          "settings": {
-            "collection": "jackets",
-            "products_count": 6,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop {{ block.settings.collection.title }}"
-          }
-        },
         "collection_9kbwcg": {
           "type": "collection",
           "settings": {
@@ -226,9 +226,9 @@
         }
       },
       "block_order": [
+        "collection_DQfB7d",
         "collection-1",
         "collection_BcXEFF",
-        "collection_DQfB7d",
         "collection_9kbwcg"
       ],
       "name": "Key Collections",
