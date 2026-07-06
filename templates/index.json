@@ -12,8 +12,67 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_6hmAaX": {
+          "type": "image",
+          "name": "Lolly's Laundry",
+          "settings": {
+            "image": "shopify://shop_images/1_0e020861-b7bf-4cdb-9465-81c57bf2368d.png",
+            "mobile_image": "shopify://shop_images/1_3674a8ab-3a04-4958-b899-3aa1f0e34c06.png",
+            "subheading": "From Copenhagen",
+            "title": "LOLLY'S LAUNDRY",
+            "heading_style": "h1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "View",
+            "button_1_link": "shopify://collections/lollys-laundry",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_geUzE9": {
+          "type": "image",
+          "name": "Sale",
+          "settings": {
+            "image": "shopify://shop_images/2_6018e0d0-eb8c-4ff2-adfc-b3699dd93bb2.png",
+            "mobile_image": "shopify://shop_images/2_004e2e38-ff7e-40f2-bd76-1810107c5f52.png",
+            "subheading": "",
+            "title": "",
+            "heading_style": "h1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 400,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/sale",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "slide-1": {
           "type": "image",
+          "name": "A/W New Arrivals",
           "settings": {
             "image": "shopify://shop_images/4.jpg",
             "mobile_image": "shopify://shop_images/3.jpg",
@@ -42,6 +101,7 @@
         },
         "image_bctjFn": {
           "type": "image",
+          "name": "About",
           "settings": {
             "image": "shopify://shop_images/DOMINI_COLLECTIVE_WEBSITE_BANNERS_af35c7d3-232e-4859-aef7-16ddf101c809.png",
             "mobile_image": "shopify://shop_images/5_5488343d-259f-46d6-ba9d-86af3cf16863.png",
@@ -70,6 +130,7 @@
         },
         "image_D3eY63": {
           "type": "image",
+          "name": "Sixxta",
           "settings": {
             "image": "shopify://shop_images/3_b0bf2049-8821-4bf6-88bc-7c5d479a1fdf.jpg",
             "mobile_image": "shopify://shop_images/2.jpg",
@@ -98,6 +159,8 @@
         }
       },
       "block_order": [
+        "image_6hmAaX",
+        "image_geUzE9",
         "slide-1",
         "image_bctjFn",
         "image_D3eY63"
@@ -121,6 +184,16 @@
     "featured-collections-1": {
       "type": "featured-collections",
       "blocks": {
+        "collection_DQfB7d": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "products_count": 6,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop {{ block.settings.collection.title }}"
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -141,16 +214,6 @@
             "link_text": "Shop {{ block.settings.collection.title }}"
           }
         },
-        "collection_DQfB7d": {
-          "type": "collection",
-          "settings": {
-            "collection": "jackets",
-            "products_count": 6,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop {{ block.settings.collection.title }}"
-          }
-        },
         "collection_9kbwcg": {
           "type": "collection",
           "settings": {
@@ -163,9 +226,9 @@
         }
       },
       "block_order": [
+        "collection_DQfB7d",
         "collection-1",
         "collection_BcXEFF",
-        "collection_DQfB7d",
         "collection_9kbwcg"
       ],
       "name": "Key Collections",
